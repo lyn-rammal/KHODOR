@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;}   
+
+ body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: linear-gradient(45deg, rgb(5, 54, 3)  rgb(254, 255, 254));
+    }
+    .player 
+    {
+        position: relative;
+        width: 350px;
+        background:  rgb(254, 255, 254);
+        box-shadow: 0 50px 80px  rgb(0, 0, 0);
+    }
+    .player .imgbox{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .player .imgbox img{
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        object-fit:cover
+            }
+     .player audio {
+        width: 100%;
+        outline: none;
+     } 
